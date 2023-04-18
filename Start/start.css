@@ -1,0 +1,176 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  background-color: black;
+}
+.header {
+  background-color: rgb(20, 19, 19);
+}
+.logo {
+  position: relative;
+  top: 25px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.nav_list {
+  text-align: center;
+  position: relative;
+  top: -10px;
+  display: inline-flex;
+}
+.nav_list li {
+  list-style: none;
+  padding: 20px;
+}
+.nav_list li a {
+  text-decoration: none;
+}
+.nav_list li a:hover {
+  opacity: 3;
+  border-bottom: solid 2px white;
+  transition: 0.3s;
+}
+.login_signUp {
+  float: right;
+  margin-top: -55px;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.login_signUp span {
+  padding: 10px;
+}
+.login_signUp span a {
+  text-decoration: none;
+}
+#signUp {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50px;
+  border: solid 1px white;
+  padding: 5px 20px 5px 20px;
+}
+
+.center_content {
+  margin-top: 90px;
+  margin-left: 70px;
+}
+.center_header {
+  padding-bottom: 20px;
+  line-height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+}
+.center_image {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  left: 600px;
+  top: 170px;
+  border-radius: 10px;
+  opacity: 20px;
+}
+.center_btn {
+  margin-left: 70px;
+  margin-top: 40px;
+}
+
+.getIt {
+  padding-right: 0px;
+  padding: 5px 40px 5px 40px;
+  border: solid 1px whitesmoke;
+  height: 40px;
+  background-color: whitesmoke;
+  margin-right: 10px;
+  border-radius: 5px;
+  color: black;
+}
+.getIt:hover {
+  opacity: 0.7;
+  border: solid 1px white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.Download {
+  padding-right: 0px;
+  padding: 5px 15px 5px 15px;
+  border: solid 1px whitesmoke;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.Download:hover {
+  border: solid 1px whitesmoke;
+  background-color: whitesmoke;
+  cursor: pointer;
+  color: black;
+  transition: 0.3s;
+}
+
+.footer {
+  margin-top: 200px;
+  margin-left: 70px;
+  display: inline-flex;
+}
+.one {
+  margin-right: 60px;
+}
+.one_head,
+.two_head {
+  font-family: Arial, Helvetica, sans-serif;
+  color: orangered;
+}
+.sticker img {
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  margin-left: 300px;
+}
+#count {
+  position: relative;
+  top: 18px;
+  margin-left: 200px;
+  padding-right: 0px;
+  padding: 5px 40px 5px 40px;
+  border: solid 1px orangered;
+  height: 40px;
+  background-color: orangered;
+  margin-right: 6px;
+  border-radius: 5px;
+}
+#count:hover {
+  opacity: 0.8;
+  transition: 0.1;
+  cursor: pointer;
+}
+
+.users {
+  margin-left: 20px;
+}
+.users span img {
+  margin-left: -10px;
+  position: relative;
+  top: 23px;
+  border-radius: 30px;
+}
+
+.add_user {
+  position: relative;
+  top: 19px;
+  right: 11px;
+  border: solid 1px orangered;
+  background-color: orangered;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.add_user:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.2s;
+}

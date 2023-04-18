@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  background-color: white;
+}
+.header {
+  background-color: black;
+  color: white;
+}
+.logo {
+  position: relative;
+  top: 25px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.nav_list {
+  text-align: center;
+  position: relative;
+  top: -10px;
+  display: inline-flex;
+}
+.nav_list li {
+  list-style: none;
+  padding: 20px;
+}
+.nav_list li a {
+  text-decoration: none;
+  color: white;
+}
+.nav_list li a:hover {
+  opacity: 3;
+  border-bottom: solid 2px white;
+  transition: 0.5s;
+}
+.login_signUp {
+  float: right;
+   margin-top: -55px;
+  padding: 10px;
+  margin-right: 20px;
+}
+.login_signUp span {
+  padding: 10px;
+}
+.login_signUp span a {
+  text-decoration: none;
+  color: white;
+}
+#signUp {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50px;
+  border: solid 1px white;
+  padding: 5px 20px 5px 20px;
+}
+.service_content {
+  display: inline-flex;
+}
+/* .as_background {
+} */
+.content_text {
+  position: relative;
+  margin-right: 0px;
+  padding: 20px;
+  background-color: rgb(20, 19, 19);
+  color: black;
+}
+.content_text h1,
+h2 {
+  text-align: center;
+  padding: 10px;
+}
+.content_text p {
+  text-align: justify;
+}
+.form {
+  padding: 10px;
+}
+.form label {
+  padding-right: 15px;
+}
+.txt {
+  border-radius: 5px;
+  color: black;
+}
+.submit {
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 7px 40px 7px 40px;
+  background-color: red;
+}
+.submit:hover {
+  opacity: 0.5;
+  transition: 0.3;
+  cursor: pointer;
+}

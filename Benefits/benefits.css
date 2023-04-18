@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  background-color: rgb(20, 19, 19);
+}
+.header {
+  background-color: black;
+  color: white;
+}
+.logo {
+  position: relative;
+  top: 25px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.nav_list {
+  text-align: center;
+  position: relative;
+  top: -10px;
+  display: inline-flex;
+}
+.nav_list li {
+  list-style: none;
+  padding: 20px;
+}
+.nav_list li a {
+  text-decoration: none;
+}
+.nav_list li a:hover {
+  opacity: 3;
+  border-bottom: solid 2px white;
+  transition: 0.3s;
+}
+.login_signUp {
+  float: right;
+  margin-top: -55px;
+  padding: 10px;
+  margin-right: 20px;
+}
+.login_signUp span {
+  padding: 10px;
+}
+.login_signUp span a {
+  text-decoration: none;
+}
+#signUp {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50px;
+  border: solid 1px white;
+  padding: 5px 20px 5px 20px;
+}
+.center {
+  display: inline-flex;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.main_info {
+  position: relative;
+  top: 30px;
+}
+.center div h1 {
+  line-height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  margin-right: 10px;
+}
+.center span img {
+  margin-left: 80px;
+  border-radius: 10px;
+}
+.testimony {
+  position: relative;
+  top: -100px;
+  margin-left: 25px;
+}
+.testimony h2 {
+  padding: 10px;
+  padding-bottom: 10px;
+  margin-left: 150px;
+}
+.testimony span a {
+  position: relative;
+  top: 20px;
+  left: 30px;
+  margin-left: 30px;
+  color: red;
+  border: solid 1px white;
+  padding: 3px 40px;
+  text-decoration: none;
+}
+.facebook a {
+  border: solid 1px white;
+  background-color: white;
+}
+.facebook a:hover {
+  opacity: 0.5;
+  transition: 0.3;
+}
+.footer {
+  position: relative;
+  /* left: 30px; */
+  top: -90px;
+  margin-top: -1000px;
+  margin-left: 70px;
+  display: inline-flex;
+}
+.one,
+.two {
+  margin-top: -100px;
+  padding: 30px;
+  border: solid 1px white;
+  border-radius: 5px;
+  margin: 40px;
+}
+
+.two:hover {
+  /* box-shadow: 2px 8px white; */
+  /* box-shadow: 5px 10px #888888; */
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.one:hover {
+  /* box-shadow: 2px 8px white;
+  transition: 0.4s; */
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.one_head,
+.two_head {
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}

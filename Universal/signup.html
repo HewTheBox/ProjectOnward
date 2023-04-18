@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="general.css" />
+    <title>SignUp</title>
+    <style>
+      body {
+        background-color: rgb(20, 19, 19);
+      }
+      form {
+        position: relative;
+        margin-top: 10%;
+        text-align: center;
+        background-color: black;
+        width: 50%;
+        height: 42vh;
+        left: 25%;
+        border-radius: 10px;
+      }
+      div {
+        position: relative;
+        top: 40px;
+        margin-top: 50px;
+      }
+      label {
+        line-height: 40px;
+        padding: 20px;
+        justify-content: left;
+        font-family: "Courier New", Courier, monospace;
+        color: white;
+      }
+      input {
+        margin-left: 30px;
+        border: solid 1px white;
+        border-radius: 10px;
+        color: black;
+      }
+      #header {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #cent {
+        position: relative;
+        top: -100px;
+      }
+      .header {
+        background-color: black;
+      }
+      .login_signUp {
+        position: relative;
+        top: 0px;
+      }
+      .nav_list {
+        visibility: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="cent">
+      <div class="header">
+        <h3 class="logo">StyloCash</h3>
+        <center>
+          <ul class="nav_list">
+            <li><a href="../services/services.html">Services</a></li>
+            <li><a href="../Performance/performance.html">How it works</a></li>
+            <li><a href="../Benefits/benefits.html">Benefits</a></li>
+            <li><a href="../Pricing/pricing.html">Pricing</a></li>
+          </ul>
+        </center>
+
+        <div class="login_signUp">
+          <span id="login"><a href="login.html">Login</a> </span>
+          <!-- <span id="signUp"><a href="signup.html">Sign Up</a></span> -->
+        </div>
+      </div>
+    </div>
+    <form action="succesPage.html">
+      <div>
+        <h2 id="header">StyloCash Sign Up</h2>
+        <br />
+        <br />
+        <label
+          for="firstName"
+          style="margin-left: -23px; position: relative; left: 4px"
+          >First Name
+        </label>
+        <input
+          type="text"
+          style="margin-left: 19px; position: relative; left: -30px"
+          required
+        />
+
+        <label for="lastName" style="position: relative; left: 13px"
+          >Last Name
+        </label>
+        <input type="text" style="position: relative; left: -30px" required />
+        <br />
+        <br />
+        <label for="email" style="margin-left: -69px">Email </label>
+        <input
+          type="text"
+          style="margin-left: 50px; position: relative; left: -37px"
+          required
+        />
+        <label for="Age" style="margin-left: 10px">Age </label>
+        <input
+          type="text"
+          style="margin-left: 10px; position: relative; left: 30px"
+          required
+        />
+        <br /><br />
+        <label for="Password" style="margin-left: -30px">Password </label>
+        <input
+          type="password"
+          style="position: relative; left: -38px"
+          required
+        />
+        <label for="confirmPassword" style="position: relative; left: 10px"
+          >Confirm</label
+        >
+        <input
+          type="password"
+          style="position: relative; left: -12px"
+          required
+        />
+        <br />
+        <br />
+        <br />
+        <input
+          type="submit"
+          value="SignUp"
+          id="btn"
+          style="
+            width: 120px;
+            padding: 5px;
+            border: solid 1px white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            color: black;
+          "
+          required
+        />
+      </div>
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>
