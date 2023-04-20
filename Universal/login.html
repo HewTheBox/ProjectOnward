@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="general.css" />
+    <style>
+      body {
+        background-color: rgb(20, 19, 19);
+        /* background-color: white; */
+      }
+      .form {
+        position: relative;
+        left: 50%;
+        margin-top: 5%;
+        text-align: end;
+        padding: 10px;
+        background-color: white;
+        width: 30%;
+        height: 40vh;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        z-index: 15;
+      }
+
+      .form label {
+        padding-right: 15px;
+        color: black;
+        font-family: "Courier New", Courier, monospace;
+      }
+      .form div {
+        margin-top: 40px;
+        margin-right: 45px;
+      }
+      .txt {
+        border: solid 1.5px lightgray;
+        width: 350px;
+        height: 49px;
+        border-radius: 5px;
+        color: black;
+        padding-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+      .submit {
+        /* position: relative;
+        right: 300px; */
+        border: solid 1px lightgray;
+        border-radius: 10px;
+        width: 350px;
+        height: 49px;
+        border-radius: 5px;
+        background-color: rgb(107, 14, 188);
+      }
+      .submit:hover {
+        opacity: 0.5;
+        transition: 0.3;
+        cursor: pointer;
+      }
+      .header {
+        background-color: black;
+      }
+      .login_signUp {
+        position: relative;
+        top: 0px;
+      }
+      .nav_list {
+        visibility: hidden;
+      }
+
+      #header {
+        position: relative;
+        right: 110px;
+        color: black;
+        padding-bottom: 50px;
+      }
+      .center_content {
+        position: relative;
+        top: -330px;
+        z-index: 5;
+
+        margin-left: 100px;
+      }
+      .center_header {
+        padding-bottom: 20px;
+        line-height: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="cent">
+      <div class="header">
+        <h3 class="logo">StyloCash</h3>
+        <center>
+          <ul class="nav_list">
+            <li><a href="../services/services.html">Services</a></li>
+            <li><a href="../Performance/performance.html">How it works</a></li>
+            <li><a href="../Benefits/benefits.html">Benefits</a></li>
+            <li><a href="../Pricing/pricing.html">Pricing</a></li>
+          </ul>
+        </center>
+
+        <div class="login_signUp">
+          <!-- <span id="login"><a href="login.html">Login</a> </span> -->
+          <span id="signUp"><a href="signup.html">Sign Up</a></span>
+        </div>
+      </div>
+    </div>
+    <form action="../Start/start.html" class="form">
+      <div>
+        <h2 id="header">StyloCash Log in</h2>
+
+        <input
+          type="text"
+          name="fName"
+          class="txt"
+          placeholder="Username"
+          required
+        />
+        <br />
+        <br />
+        <input
+          type="password"
+          name="email"
+          class="txt"
+          placeholder="Password"
+          required
+        />
+        <br /><br />
+        <button class="submit">Login</button>
+      </div>
+    </form>
+    <div>
+      <div class="center_content">
+        <h2 class="center_header">
+          Fast And Simple <br />
+          Digital Payment <br />
+          Solution
+        </h2>
+        <p class="center_para">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto qui
+          amet
+          <br />
+          consequuntur velit nisi atque sequi placeat tempora quidem? Cumque
+          totam
+          <br />
+          odit reprehenderit possimus reiciendis quisquam animi nobis temporibus
+          <br />
+          harum Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
